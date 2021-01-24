@@ -1,0 +1,101 @@
+.map {
+    width: 96vw;
+    height: 38vh;
+    border: 2px solid #949496;
+    border-radius: 15px;
+    margin: 0px 10px;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.form-box {
+    margin: 0px 10px;
+    border: 1px solid #949496;
+    border-radius: 10px;
+    background: none;
+    font-size: 15;
+}
+
+.form-box input[type="text"] {
+    border-radius: 10px;
+    border: 1px solid #949496;
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    color: black;
+    outline: none;
+    transition: 0.3s;
+    
+}
+
+.form-box input[type="text"]:focus {
+    width: 95%;
+    border-color: #3364FF;
+    color: black;
+}
+
+.btn-Calculate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: #3364FF;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px;
+    
+    
+}
+
+.label-group {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border: 1px solid #949496;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    margin: 0px 10px;
+    padding: 0;
+}
+
+.ico-result {
+
+  height: 55px;
+  padding: 0;
+  margin: 0;
+}  
+
+.ico-div {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+} 
+
+.logo {
+    color: white;
+    background-color: #3364FF;
+  }
+
+  .express {
+    color: black;
+    
+  }
+  
+
+  h6 { 
+      margin: 0;
+      padding: 0;
+      font-size: 20;
+  }
