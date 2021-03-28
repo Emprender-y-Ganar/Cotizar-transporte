@@ -266,7 +266,7 @@ var calculeBtn = document.getElementById("calcule")
           //ENVIO RUTA PAQUETE COLECTIVO
           if ($ruta <= 4960){
               ruta.textContent = "Ruta $ 4960**"
-              observaciones.textContent = "**La RUTA O SERVICIO COLECTIVO tiene CONDICIONES Y RESTRICCIONES // info Whatsapp 3176670197"
+              observaciones.textContent = "[ **Aplican T&C ] <-----TRANSPORTE DE PERSONAS 15% DE DCTO ---> info 3176670197"
              
           }else {
             ruta.textContent = "Ruta $ " + Math.round($ruta) + "**"
