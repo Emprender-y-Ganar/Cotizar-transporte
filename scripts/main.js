@@ -241,8 +241,8 @@ var calculeBtn = document.getElementById("calcule")
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
                 let precioXpress = (precioKM + precioMin) + 2000 //Calculo t y d por un 60% ganancia
 
-                let $ruta = ( (distancia *0.4) + ((tiempo + 600)*2) + 1400) * 0.9
-                let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 2) + 1400
+                let $ruta = ( (distancia *0.4) + ((tiempo + 900)*1.5) + 2000) * 0.9
+                let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 1.6) + 3000
 
           //ENVIO MOTO 
 
@@ -253,8 +253,8 @@ var calculeBtn = document.getElementById("calcule")
                 } 
 
           //ENVIO CARRO 
-                if (precioXpress <= 4961){   // Este if es para imprimir costo Express 
-                    expreso.textContent = "$ 4960" 
+                if (precioXpress <= 5960){   // Este if es para imprimir costo Express 
+                    expreso.textContent = "$ 5960" 
                     lblResult.style.backgroundColor = 'white';
                     lblResult.textContent = "El recorrido es de: " + dText + " y toma un tiempo de " + Math.round(((tiempo + 300)/60)) + " minutos." 
                 } else {
