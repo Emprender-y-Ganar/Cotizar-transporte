@@ -241,8 +241,8 @@ var calculeBtn = document.getElementById("calcule")
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
                 let precioXpress = (precioKM + precioMin) + 2500 //Calculo t y d por un 60% ganancia
 
-                let $ruta = ( (distancia *0.35) + ((tiempo + 900)*1.4) + 2000) 
-                let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 1.5) + 3000
+                let $ruta = ( (distancia *0.35) + ((tiempo + 900)*1.3) + 2500) 
+                let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 1.7) + 3500
 
           //ENVIO MOTO 
 
