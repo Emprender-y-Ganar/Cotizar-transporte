@@ -241,7 +241,7 @@ var calculeBtn = document.getElementById("calcule")
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
                 let precioXpress = (precioKM + precioMin) + 2500 //Calculo t y d por un 60% ganancia
 
-                let $ruta = ( (distancia *0.35) + ((tiempo + 900)*1.3) + 2500) 
+                let $ruta = ( (distancia *0.5) + (tiempo* 4.1) + 2000) // 
                 let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 1.7) + 3500
 
           //ENVIO MOTO 
@@ -270,7 +270,7 @@ var calculeBtn = document.getElementById("calcule")
              
           }else {
             ruta.textContent = "Ruta $ " + Math.round($ruta) + "**"
-            observaciones.textContent = "**La RUTA O SERVICIO COLECTIVO tiene CONDICIONES Y RESTRICCIONES // info Whatsapp 3176670197"
+            observaciones.textContent = "[ **Aplican T&C ] <-----TRANSPORTE DE PERSONAS 15% DE DCTO ---> info 3176670197"
                          
          }                   
          
