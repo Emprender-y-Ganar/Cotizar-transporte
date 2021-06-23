@@ -242,7 +242,9 @@ var calculeBtn = document.getElementById("calcule")
                 let precioXpress = (precioKM + precioMin) + 2500 //Calculo t y d por un 60% ganancia
 
                 let $ruta = ( (distancia *0.35) + ((tiempo + 900)*1.4) + 2000) 
-                let precioMoto = (distancia * 0.5) + ((tiempo + 900) * 1.7) + 3500
+                
+                // 1200 segundos = 20 minutos y 0.1 serian $100 por km
+                let precioMoto = (distancia * 0.1) + ((tiempo + 900) * 3.5) + 3100
 
           //ENVIO MOTO 
 
