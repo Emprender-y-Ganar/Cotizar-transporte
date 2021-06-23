@@ -236,10 +236,10 @@ var calculeBtn = document.getElementById("calcule")
                 dText = result.routes[0].legs[0].distance.text;
                          
                 let precioKM = distancia * 1 // 1000 por KM
-                let precioMin = (tiempo + 900) * 2 // 120 por min (incluye salraio del vehiculo por 1,2 millones)
+                let precioMin = (tiempo + 900) * 2.5 // 120 por min (incluye salraio del vehiculo por 1,2 millones)
           
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
-                let precioXpress = (precioKM + precioMin) + 2500 //Calculo t y d por un 60% ganancia
+                let precioXpress = (precioKM + precioMin) + 3000 //Calculo t y d por un 60% ganancia
 
                 let $ruta = ( (distancia *0.35) + ((tiempo + 900)*1.4) + 2000) 
                 
