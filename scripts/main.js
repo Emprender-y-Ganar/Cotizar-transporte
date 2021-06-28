@@ -268,7 +268,7 @@ var calculeBtn = document.getElementById("calcule")
           //ENVIO RUTA PAQUETE COLECTIVO
           if ($ruta <= 4960){
               ruta.textContent = "Ruta $ 4960**"
-              observaciones.textContent = "[ **Aplican T&C ] <-----LOS VEHÍCULOS CON PARRILLA TIENEN SOBRE-COSTO DE 4 MIL PESOS ---- >
+              observaciones.textContent = "[ **Aplican T&C ] <-----LOS VEHÍCULOS CON PARRILLA TIENEN SOBRE-COSTO DE 4 MIL PESOS ---- >" 
              
           }else {
             ruta.textContent = "Ruta $ " + Math.round($ruta) + "**"
