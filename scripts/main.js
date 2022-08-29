@@ -239,7 +239,7 @@ var calculeBtn = document.getElementById("calcule")
                 let precioMin = (tiempo + 900) * 2.5 // 120 por min (incluye salraio del vehiculo por 1,2 millones)
           
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
-                let precioXpress = (precioKM + precioMin) + 3000 //Calculo t y d por un 60% ganancia
+                let precioXpress = ((precioKM + precioMin) * 1.3) + 2500 //Calculo t y d por un 60% ganancia
 
                 let $ruta = ( (distancia *0.4) + ((tiempo + 900)*1.4) + 1000) 
                 
@@ -268,11 +268,11 @@ var calculeBtn = document.getElementById("calcule")
           //ENVIO RUTA PAQUETE COLECTIVO
           if ($ruta <= 4960){
               ruta.textContent = "Ruta $ 4960**"
-              observaciones.textContent = "[ **Aplican T&C ] <-----LOS VEHÍCULOS CON PARRILLA TIENEN SOBRE-COSTO DE 4 MIL PESOS ---- >" 
+              observaciones.textContent = "[ **Aplican T&C ] <-----Sólo vehiculos familiares - NO LLEVAMOS CARGA ---- >" 
              
           }else {
             ruta.textContent = "Ruta $ " + Math.round($ruta) + "**"
-            observaciones.textContent = "[ **Aplican T&C ] <-----LOS VEHÍCULOS CON PARRILLA TIENEN COSTO ADICIONAL DE 4 MIL PESOS ---> info 3176670197"
+            observaciones.textContent = "[ **Aplican T&C ] <-----Solo vehiculos familiares - NO LLEVAMOS CARGA ---> info 3176670197"
                          
          }                   
          
