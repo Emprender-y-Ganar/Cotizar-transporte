@@ -239,7 +239,7 @@ var calculeBtn = document.getElementById("calcule")
                 let precioMin = (tiempo + 900) * 2.5 // 120 por min (incluye salraio del vehiculo por 1,2 millones)
           
                 //let precioRuta = (precioKM + precioMin ) * 0.8 //Basico de todo //tarifa base
-                let precioXpress = ((precioKM + precioMin) * 1.3) + 2500 //Calculo t y d por un 60% ganancia
+                let precioXpress = ((precioKM + precioMin) * 1.2) + 2500 //Calculo t y d por un 60% ganancia
 
                 let $ruta = ( (distancia *0.4) + ((tiempo + 900)*1.4) + 1000) 
                 
